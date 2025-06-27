@@ -20,6 +20,7 @@ export function HeroSection({ featuredGame }: HeroSectionProps) {
               <GameIframe
                 gameUrl={featuredGame.gameUrl}
                 title={featuredGame.title}
+                backgroundImage={featuredGame.backgroundImage}
                 className="w-full h-full"
               />
             </div>

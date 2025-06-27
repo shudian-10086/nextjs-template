@@ -7,6 +7,7 @@ export interface Game {
   category: GameCategory;
   tags: string[];
   thumbnail: string;
+  backgroundImage?: string;
   gameUrl: string;
   featured: boolean;
   rating: number;

@@ -19,6 +19,9 @@ export function GameCard({ game }: GameCardProps) {
               src={game.thumbnail}
               alt={game.title}
               fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority={false}
+              loading="lazy"
               className="object-cover group-hover:scale-105 transition-transform duration-300"
             />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />

@@ -158,6 +158,7 @@ export default function GamePage({ params }: GamePageProps) {
                   <GameIframe
                     gameUrl={game.gameUrl}
                     title={game.title}
+                    backgroundImage={game.backgroundImage}
                     className="w-full h-full"
                   />
                 </div>
