@@ -55,7 +55,7 @@ export function SprunkiGameplay() {
   ];
 
   return (
-    <section className="nyt-section bg-slate-50">
+    <section className="nyt-section bg-slate-50" id="how-to-play">
       <div className="nyt-container">
         <div className="text-center mb-16">
           <Badge className="mb-6 bg-slate-200 text-slate-700 hover:text-slate-100 px-4 py-2 text-sm font-medium tracking-wide">

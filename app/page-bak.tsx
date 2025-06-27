@@ -126,11 +126,9 @@ export default function HomePage() {
         <SprunkiGameplay />
         <SprunkiRatings />
         <SprunkiFAQ />
-        {/*
         <div id="games">
           <GamesGrid games={limitedGames} title="Discover More Games" showViewAllButton={true} />
         </div>
-        */}
       </main>
       <Footer />
     </>

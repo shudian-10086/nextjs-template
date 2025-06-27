@@ -4,9 +4,10 @@ import { Github, Twitter, Mail } from 'lucide-react';
 export function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50">
-      <div className="nyt-container py-16">
+      <div className="nyt-container pb-16">
+       {/*
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand */}
+          {/* Brand 
           <div className="space-y-4">
             <Link href="/" className="flex items-center">
               <div className="text-xl font-bold text-slate-900" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
@@ -18,7 +19,7 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Games */}
+          {/* Games 
           <div>
             <h3 className="font-medium mb-4 text-slate-900" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
               Game Categories
@@ -31,7 +32,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Support */}
+          {/* Support 
           <div>
             <h3 className="font-medium mb-4 text-slate-900" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
               Support
@@ -44,7 +45,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Social */}
+          {/* Social 
           <div>
             <h3 className="font-medium mb-4 text-slate-900" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
               Connect
@@ -62,8 +63,9 @@ export function Footer() {
             </div>
           </div>
         </div>
+        */}
 
-        <div className="border-t border-slate-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-slate-200 mt-12 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-slate-500">
             © 2024 MiniGameHub. All rights reserved.
           </p>

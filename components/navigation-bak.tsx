@@ -4,15 +4,17 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Home, Grid3X3, Info, MessageSquare, Book, Gamepad2 } from 'lucide-react';
+import { Menu, Home, Grid3X3, Info, MessageSquare, Book } from 'lucide-react';
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { href: "/", label: "Game", icon: Gamepad2 },
-    { href: "/#how-to-play", label: "How to Play", icon: Info },
-    { href: "/#faq", label: "FAQ", icon: Book }
+    { href: '/', label: 'Home', icon: Home },
+    { href: '/games', label: 'Games', icon: Grid3X3 },
+    { href: '/about', label: 'About Us', icon: Info },
+    { href: '/connect', label: 'Connect', icon: MessageSquare },
+    { href: '/blog', label: 'Blog', icon: Book },
   ];
 
   return (
