@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: GamePageProps): Promise<Metad
     openGraph: {
       title: `${game.title} - 免费在线游戏 | MiniGameHub`,
       description: game.description,
-      type: 'article',
+      type: 'website',
       url: `https://minigamehub.com/games/${game.slug}`,
       images: [
         {
@@ -43,11 +43,6 @@ export async function generateMetadata({ params }: GamePageProps): Promise<Metad
           alt: game.title,
         },
       ],
-      article: {
-        publishedTime: game.releaseDate,
-        authors: [game.developer],
-        tags: game.tags,
-      },
     },
     twitter: {
       card: 'summary_large_image',

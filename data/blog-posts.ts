@@ -1,6 +1,12 @@
 import { BlogPost } from '@/types/blog-post';
 import type { Metadata } from 'next';
 
+interface BlogPostPageProps {
+  params: {
+    slug: string;
+  };
+}
+
 export const blogPosts: BlogPost[] = [
   {
     slug: 'my-first-blog-post',
