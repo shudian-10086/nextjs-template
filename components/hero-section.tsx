@@ -12,11 +12,11 @@ interface HeroSectionProps {
 export function HeroSection({ featuredGame }: HeroSectionProps) {
   return (
     <section className="nyt-section bg-slate-150 " id="home">
-      <div className="nyt-container">
+      <div className="nyt-container max-w-7xl mx-auto">
         <div className="nyt-grid lg:grid-cols-5 items-center">
           {/* Game Preview */}
           <div className="relative lg:col-span-3">
-            <div className="aspect-[4/3] rounded-sm overflow-hidden shadow-xl border border-slate-200">
+            <div className="aspect-[4/3] rounded-sm overflow-hidden">
               <GameIframe
                 gameUrl={featuredGame.gameUrl}
                 title={featuredGame.title}

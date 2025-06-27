@@ -19,7 +19,7 @@ export function GameIframe({ gameUrl, title, className = '', backgroundImage }: 
   };
 
   return (
-    <div className={`relative bg-slate-300 overflow-hidden ${className}`}>
+    <div className={`relative overflow-hidden ${className}`}>
       {/* 只有在用户点击开始后才加载iframe */}
       {hasStarted ? (
         <iframe
