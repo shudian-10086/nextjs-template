@@ -37,7 +37,7 @@ export function GameIframe({ gameUrl, title, className = '' }: GameIframeProps) 
               <Play className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">{title}</h3>
-            <p className="text-slate-400 mb-6 max-w-sm">
+            <p className="text-slate-100 mb-6 max-w-sm">
               Click to start playing this awesome game!
             </p>
             <Button onClick={handleStart} size="lg" className="gap-2">

@@ -11,7 +11,7 @@ interface HeroSectionProps {
 
 export function HeroSection({ featuredGame }: HeroSectionProps) {
   return (
-    <section className="nyt-section bg-gradient-to-b from-slate-50 to-white" id="home">
+    <section className="nyt-section bg-slate-150 " id="home">
       <div className="nyt-container">
         <div className="nyt-grid lg:grid-cols-5 items-center">
           {/* Game Preview */}

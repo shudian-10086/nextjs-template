@@ -131,7 +131,7 @@ export function SprunkiFAQ() {
           })}
         </div>
 
-        {/* Contact Support Section */}
+        {/* Contact Support Section
         <Card className="nyt-card mt-16 bg-slate-50 border-slate-300">
           <CardContent className="p-8 text-center">
             <div className="w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -155,6 +155,7 @@ export function SprunkiFAQ() {
             </div>
           </CardContent>
         </Card>
+         */}
       </div>
     </section>
   );

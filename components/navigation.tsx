@@ -11,8 +11,8 @@ export function Navigation() {
 
   const navItems = [
     { href: "/", label: "Game", icon: Gamepad2 },
-    { href: "/#how-to-play", label: "How to Play", icon: Info },
-    { href: "/#faq", label: "FAQ", icon: Book }
+    { href: "/#how-to-play", label: "How to Play", icon: Book },
+    { href: "/#faq", label: "FAQ", icon: Info }
   ];
 
   return (

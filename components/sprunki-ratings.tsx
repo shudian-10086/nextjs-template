@@ -190,7 +190,7 @@ export function SprunkiRatings() {
                             key={i}
                             className={`w-4 h-4 ${
                               i < review.rating
-                                ? 'text-orange-600 fill-current'
+                                ? 'text-orange-300 fill-current'
                                 : 'text-slate-300'
                             }`}
                           />
