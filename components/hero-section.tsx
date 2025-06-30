@@ -28,7 +28,7 @@ export function HeroSection({ featuredGame }: HeroSectionProps) {
           {/* Game Info */}
           <div className="space-y-8 lg:col-span-2">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-medium leading-tight text-orange-400" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-medium leading-tight text-orange-400 font-rubik">
                 {featuredGame.title}
               </h1>
             </div>

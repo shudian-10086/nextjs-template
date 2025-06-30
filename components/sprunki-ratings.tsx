@@ -84,7 +84,7 @@ export function SprunkiRatings() {
           <Badge className="mb-6 bg-slate-200 text-slate-700 hover:text-slate-100 px-4 py-2 text-sm font-medium tracking-wide">
             Player Reviews & Ratings
           </Badge>
-          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-medium mb-6 text-orange-400" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-medium mb-6 text-orange-400 font-rubik">
             What Players Say About Sprunki Game
           </h2>
           <p className="text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
@@ -99,7 +99,7 @@ export function SprunkiRatings() {
               <div className="w-20 h-20 bg-slate-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Star className="w-10 h-10 text-orange-200 fill-current" />
               </div>
-              <CardTitle className="text-4xl font-medium text-orange-200" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+              <CardTitle className="text-4xl font-medium text-orange-200 font-rubik">
                 {overallRating}
               </CardTitle>
               <div className="flex items-center justify-center gap-1 mb-2">
@@ -137,7 +137,7 @@ export function SprunkiRatings() {
           {/* Highlights */}
           <Card className="nyt-card lg:col-span-2 !bg-slate-600 !text-slate-600">
             <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-orange-100" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+              <CardTitle className="flex items-center gap-2 text-orange-100 font-rubik">
                 <Award className="w-5 h-5 text-orange-300" />
                 Game Highlights
               </CardTitle>
@@ -151,7 +151,7 @@ export function SprunkiRatings() {
                       <div className="w-12 h-12 bg-slate-900 rounded-sm flex items-center justify-center mx-auto mb-3">
                         <Icon className="w-6 h-6 text-white" />
                       </div>
-                      <div className="text-2xl font-medium text-orange-200 mb-1" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+                      <div className="text-2xl font-medium text-orange-200 mb-1 font-rubik">
                         {highlight.value}
                       </div>
                       <div className="font-medium text-orange-100 mb-1">{highlight.label}</div>
@@ -169,7 +169,7 @@ export function SprunkiRatings() {
         {/* Recent Reviews */}
         <Card className="nyt-card">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-slate-900" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+            <CardTitle className="flex items-center gap-2 text-slate-900 font-rubik">
               <MessageSquare className="w-5 h-5 text-slate-600" />
               Recent Player Reviews
             </CardTitle>

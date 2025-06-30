@@ -57,7 +57,7 @@ export function SprunkiFeatures() {
           <Badge className="mb-6 bg-slate-200 text-slate-700 hover:text-slate-100 px-4 py-2 text-sm font-medium tracking-wide">
             Game Features
           </Badge>
-          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-medium mb-6 text-orange-400" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-medium mb-6 text-orange-400 font-rubik">
             Why Sprunki Game is Special
           </h2>
           <p className="text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
@@ -79,7 +79,7 @@ export function SprunkiFeatures() {
                       {feature.highlight}
                     </Badge>
                   </div>
-                  <CardTitle className="text-xl font-medium text-slate-900 group-hover:text-slate-700 transition-colors" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+                  <CardTitle className="text-xl font-medium text-slate-900 group-hover:text-slate-700 transition-colors font-rubik">
                     {feature.title}
                   </CardTitle>
                 </CardHeader>

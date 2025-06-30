@@ -1,9 +1,10 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Rubik } from 'next/font/google';
 import { StagewiseInitializer } from '@/components/dev/stagewise-initializer';
 
 const inter = Inter({ subsets: ['latin'] });
+const rubik = Rubik({ subsets: ['latin'], variable: '--font-rubik' });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://minigamehub.com'),
@@ -100,7 +101,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://images.pexels.com" />
         <link rel="dns-prefetch" href="https://turbowarp.org" />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} ${rubik.variable}`}>
         {children}
         <StagewiseInitializer />
       </body>
