@@ -11,7 +11,11 @@ import {
   ArrowRight,
   Mic,
   Music,
-  Palette
+  Palette,
+  Menu,
+  Gamepad2,
+  HelpCircle,
+  Trophy
 } from 'lucide-react';
 
 export function SprunkiGameplay() {

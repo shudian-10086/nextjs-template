@@ -11,7 +11,7 @@ export default function GamesPage() {
   return (
     <>
       <Navigation />
-      <main className="min-h-screen">
+      <main className="min-h-screen bg-slate-800">
         <GamesGrid 
           games={allGames} 
           title="所有游戏" 

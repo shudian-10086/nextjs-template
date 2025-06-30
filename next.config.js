@@ -5,7 +5,7 @@ const nextConfig = {
   },
   images: { 
     unoptimized: false,
-    domains: ['images.pexels.com'],
+    domains: ['images.pexels.com', 'www.playfiddlebops.com'],
     formats: ['image/webp', 'image/avif'],
     minimumCacheTTL: 60 * 60 * 24 * 7, // 7 days
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],

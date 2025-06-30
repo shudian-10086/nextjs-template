@@ -78,7 +78,7 @@ export function GamesGrid({
     <section className="nyt-section">
       <div className="nyt-container">
         <div className="mb-12">
-          <h2 className="text-3xl lg:text-4xl font-medium mb-8 text-slate-900 text-center lg:text-left" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+          <h2 className="text-3xl lg:text-4xl font-medium mb-8 text-slate-200 text-center lg:text-left" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
             {title}
           </h2>
           <div className="flex flex-wrap justify-center lg:justify-start gap-2">

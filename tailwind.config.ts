@@ -17,7 +17,7 @@ const config: Config = {
     'bg-yellow-500',
     // 或者使用正则表达式包含整个色系
     {
-      pattern: /bg-(red|green|blue|yellow|purple|pink|indigo)-(50|100|200|300|400|500|600|700|800|900)/,
+      pattern: /bg-(orange|red|green|blue|yellow|purple|pink|indigo)-(50|100|200|300|400|500|600|700|800|900)/,
     },
     {
       pattern: /bg-slate-(300|400|700|800)/,
