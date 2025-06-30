@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'zh_CN',
+    locale: 'en_US',
     url: 'https://minigamehub.com',
     siteName: 'MiniGameHub',
     title: 'MiniGameHub - 免费在线小游戏平台',
@@ -65,8 +65,8 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://minigamehub.com',
     languages: {
-      'zh-CN': 'https://minigamehub.com',
-      'en-US': 'https://minigamehub.com/en',
+      'en-US': 'https://minigamehub.com',
+      'zh-CN': 'https://minigamehub.com/zh',
     },
   },
   category: 'entertainment',
@@ -78,7 +78,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="zh-CN" className="light">
+    <html lang="en" className="light">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="theme-color" content="#1e293b" />

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: 'https://minigamehub.com',
     siteName: 'MiniGameHub',
     type: 'website',
-    locale: 'zh_CN',
+    locale: 'en_US',
     images: [
       {
         url: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -71,7 +71,7 @@ export default function HomePage() {
                   },
                   "query-input": "required name=search_term_string"
                 },
-                "inLanguage": "zh-CN"
+                "inLanguage": "en-US"
               },
               {
                 "@type": "Organization",
@@ -88,7 +88,7 @@ export default function HomePage() {
                 "isPartOf": { "@id": "https://minigamehub.com/#website" },
                 "about": { "@id": "https://minigamehub.com/#organization" },
                 "description": "探索MiniGameHub，最优质的免费在线小游戏平台。提供音乐创作、益智解谜、竞速赛车、冒险探索等多种类型游戏。",
-                "inLanguage": "zh-CN"
+                "inLanguage": "en-US"
               },
               {
                 "@type": "ItemList",
