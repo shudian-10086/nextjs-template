@@ -75,7 +75,7 @@ export function GamesGrid({
   };
 
   return (
-    <section className="nyt-section bg-slate-50">
+    <section className="nyt-section">
       <div className="nyt-container">
         <div className="mb-12">
           <h2 className="text-3xl lg:text-4xl font-medium mb-8 text-slate-900 text-center lg:text-left" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>

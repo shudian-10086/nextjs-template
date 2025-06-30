@@ -47,7 +47,7 @@ export function GameIframe({ gameUrl, title, className = '', backgroundImage }: 
           
           <div className="text-center relative z-10">
             <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mb-4 mx-auto backdrop-blur-sm border border-white/30 group-hover:bg-white/30 group-hover:scale-110 transition-all duration-300">
-              <Play className="w-8 h-8 text-white ml-1" />
+              <Play className="w-8 h-8 text-orange-400 ml-1" />
             </div>
             <h3 className="text-xl font-semibold text-white mb-2 drop-shadow-lg group-hover:text-slate-100 transition-colors duration-300">{title}</h3>
             <p className="text-slate-100 mb-6 max-w-sm drop-shadow-md group-hover:text-white transition-colors duration-300">
@@ -59,7 +59,7 @@ export function GameIframe({ gameUrl, title, className = '', backgroundImage }: 
                 handleStart();
               }} 
               size="lg" 
-              className="gap-2 bg-white text-slate-800 hover:bg-slate-100 shadow-lg group-hover:shadow-xl transition-shadow duration-300"
+              className="gap-2 bg-orange-400 text-slate-800 hover:bg-slate-100 shadow-lg group-hover:shadow-xl transition-shadow duration-300"
             >
               <Play className="w-4 h-4" />
               Start Game

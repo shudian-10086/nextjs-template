@@ -75,16 +75,16 @@ export function SprunkiFAQ() {
   ];
 
   return (
-    <section className="nyt-section bg-white" id="faq">
+    <section className="nyt-section" id="faq">
       <div className="nyt-container">
         <div className="text-center mb-16">
           <Badge className="mb-6 bg-slate-200 text-slate-700 hover:text-slate-100 px-4 py-2 text-sm font-medium tracking-wide">
             Frequently Asked Questions
           </Badge>
-          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-medium mb-6 text-slate-900" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-medium mb-6 text-orange-400" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
             Everything You Need to Know About Sprunki Game
           </h2>
-          <p className="text-lg lg:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
             Find answers to common questions and get the most out of your Sprunki Game experience
           </p>
         </div>

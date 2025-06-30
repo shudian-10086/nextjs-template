@@ -120,7 +120,7 @@ export default function HomePage() {
         }}
       />
       <Navigation />
-      <main className="min-h-screen">
+      <main className="min-h-screen bg-slate-800">
         <HeroSection featuredGame={featuredGame} />
         <SprunkiFeatures />
         <SprunkiGameplay />

@@ -55,16 +55,16 @@ export function SprunkiGameplay() {
   ];
 
   return (
-    <section className="nyt-section bg-slate-50" id="how-to-play">
+    <section className="nyt-section" id="how-to-play">
       <div className="nyt-container">
         <div className="text-center mb-16">
           <Badge className="mb-6 bg-slate-200 text-slate-700 hover:text-slate-100 px-4 py-2 text-sm font-medium tracking-wide">
             How to Play
           </Badge>
-          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-medium mb-6 text-slate-900" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-medium mb-6 text-orange-400" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
             Master Sprunki Game in 4 Easy Steps
           </h2>
-          <p className="text-lg lg:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg lg:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
             Learn how to create amazing music compositions with our step-by-step gameplay guide
           </p>
         </div>
@@ -87,10 +87,10 @@ export function SprunkiGameplay() {
 
           <div className="space-y-8">
             <div className="space-y-4">
-              <h3 className="text-3xl font-medium text-slate-900" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+              <h3 className="text-3xl font-medium text-slate-100" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
                 Intuitive Beat Making
               </h3>
-              <p className="text-slate-600 leading-relaxed">
+              <p className="text-slate-300 leading-relaxed">
                 Easily create complex rhythms with our drag-and-drop interface. No music theory required.
               </p>
             </div>
@@ -100,8 +100,8 @@ export function SprunkiGameplay() {
                   <Play className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1 text-slate-900">Real-time Playback</h4>
-                  <p className="text-sm text-slate-600">Hear your creations instantly.</p>
+                  <h4 className="font-semibold mb-1 text-slate-100">Real-time Playback</h4>
+                  <p className="text-sm text-slate-300">Hear your creations instantly.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -109,8 +109,8 @@ export function SprunkiGameplay() {
                   <Mic className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1 text-slate-900">Vocal Recording</h4>
-                  <p className="text-sm text-slate-600">Add your voice to the mix.</p>
+                  <h4 className="font-semibold mb-1 text-slate-100">Vocal Recording</h4>
+                  <p className="text-sm text-slate-300">Add your voice to the mix.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -118,8 +118,8 @@ export function SprunkiGameplay() {
                   <Music className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1 text-slate-900">Instrument Library</h4>
-                  <p className="text-sm text-slate-600">Access a vast collection of sounds.</p>
+                  <h4 className="font-semibold mb-1 text-slate-100">Instrument Library</h4>
+                  <p className="text-sm text-slate-300">Access a vast collection of sounds.</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -127,8 +127,8 @@ export function SprunkiGameplay() {
                   <Palette className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1 text-slate-900">Customizable Visuals</h4>
-                  <p className="text-sm text-slate-600">Sync visuals to your beats.</p>
+                  <h4 className="font-semibold mb-1 text-slate-100">Customizable Visuals</h4>
+                  <p className="text-sm text-slate-300">Sync visuals to your beats.</p>
                 </div>
               </div>
             </div>

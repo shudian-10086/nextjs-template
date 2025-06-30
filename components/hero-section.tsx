@@ -11,7 +11,7 @@ interface HeroSectionProps {
 
 export function HeroSection({ featuredGame }: HeroSectionProps) {
   return (
-    <section className="nyt-section bg-slate-150 " id="home">
+    <section className="nyt-section" id="play-now">
       <div className="nyt-container max-w-7xl mx-auto">
         <div className="nyt-grid lg:grid-cols-5 items-center">
           {/* Game Preview */}
@@ -28,27 +28,27 @@ export function HeroSection({ featuredGame }: HeroSectionProps) {
           {/* Game Info */}
           <div className="space-y-8 lg:col-span-2">
             <div className="space-y-4">
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-medium leading-tight text-slate-900" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
+              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-medium leading-tight text-orange-400" style={{ fontFamily: 'Noto Serif, Georgia, serif' }}>
                 {featuredGame.title}
               </h1>
             </div>
             
-            <p className="text-lg lg:text-xl text-slate-600 leading-relaxed max-w-2xl">
+            <p className="text-lg lg:text-xl text-slate-300 leading-relaxed max-w-2xl">
               {featuredGame.description}
             </p>
             
             <div className="flex items-center gap-8 py-4">
               <div className="flex items-center gap-2">
                 <Star className="w-5 h-5 fill-orange-400 text-orange-400" />
-                <span className="font-semibold text-lg text-slate-900">{featuredGame.rating}</span>
-                <span className="text-slate-500 text-sm">rating</span>
+                <span className="font-semibold text-lg text-slate-200">{featuredGame.rating}</span>
+                <span className="text-slate-400 text-sm">rating</span>
               </div>
               <div className="flex items-center gap-2">
-                <Users className="w-5 h-5 text-slate-500" />
-                <span className="font-semibold text-lg text-slate-900">
+                <Users className="w-5 h-5 text-orange-400" />
+                <span className="font-semibold text-lg text-slate-200">
                   {(featuredGame.playCount / 1000).toFixed(0)}k
                 </span>
-                <span className="text-slate-500 text-sm">players</span>
+                <span className="text-slate-400 text-sm">players</span>
               </div>
             </div>
             
